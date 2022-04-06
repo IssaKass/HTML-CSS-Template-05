@@ -8,6 +8,9 @@
     --transition-duration: 0.3s;
     --main-padding: 80px;
 }
+::selection {
+    background-color: var(--main-color);
+}
 * {
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
